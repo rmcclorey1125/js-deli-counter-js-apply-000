@@ -1,7 +1,8 @@
 var katzDeliLine = []
 
+var num = 1
+
 function takeANumber () {
-  var num = 1
   num++
   return (`Order number ` + num)
 }
